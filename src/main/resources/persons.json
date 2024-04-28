@@ -1,0 +1,28 @@
+{
+    "persons": [
+        {
+            "firstName": "Jean",
+            "lastName": "Edouard"
+        },
+        {
+            "firstName": "Julien",
+            "lastName": "Yves"
+        },
+        {
+            "firstName": "Marie",
+            "lastName": "Curie"
+        },
+        {
+            "firstName": "Pierre",
+            "lastName": "Dupont"
+        },
+        {
+            "firstName": "Sophie",
+            "lastName": "Germain"
+        },
+        {
+            "firstName": "Thomas",
+            "lastName": "Jefferson"
+        }
+    ]
+}
