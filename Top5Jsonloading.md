@@ -12,6 +12,7 @@ This document outlines different scenarios for loading JSON data into Java objec
   ]
     ```
   
+  
 Model Class: Person
 Loader Method:
 
