@@ -12,7 +12,7 @@ public class HelloWorldApplication {
         SpringApplication.run(HelloWorldApplication.class, args);
         
         JsonDataLoader loader = new JsonDataLoader();
-        User user = loader.loadUserData("user.json");  // Assurez-vous que user.json est dans src/main/resources
+        User user = loader.loadUserData("users.json");  // Assurez-vous que user.json est dans src/main/resources
         System.out.println(user);
     }
 }
