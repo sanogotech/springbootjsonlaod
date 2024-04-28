@@ -1,9 +1,10 @@
 package com.example.helloworld;
 
-import com.example.helloworld.loader.JsonDataLoader;
+import com.example.helloworld.utils.JsonDataLoader;
 import com.example.helloworld.model.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import java.util.List;
 
 @SpringBootApplication
 public class HelloWorldApplication {
@@ -12,7 +13,7 @@ public class HelloWorldApplication {
         SpringApplication.run(HelloWorldApplication.class, args);
         
         JsonDataLoader loader = new JsonDataLoader();
-        User user = loader.loadUserData("users.json");  // Assurez-vous que user.json est dans src/main/resources
-        System.out.println(user);
+        List<User> users = loader.loadUserData("users.json");  // Assurez-vous que users.json est dans src/main/resources
+        users.forEach(System.out::println);
     }
 }
