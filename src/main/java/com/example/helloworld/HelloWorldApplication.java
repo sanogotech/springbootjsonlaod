@@ -1,6 +1,6 @@
 package com.example.helloworld;
 
-import com.example.helloworld.utils.JsonDataLoader;
+import com.example.helloworld.loader.JsonDataLoader;
 import com.example.helloworld.model.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
